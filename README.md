@@ -8,6 +8,14 @@
 | LEI   | 129832 | André Alexandre Lopes Quintas |
 
 ---
+## ⚓ Sobre o Projeto
+
+**Batalha Naval — Descobrimentos** é uma adaptação do clássico jogo Batalha Naval, inspirada na época dos Descobrimentos.
+
+Neste jogo, dois jogadores posicionam estrategicamente as suas frotas e tentam descobrir a localização dos navios adversários. O objetivo é **afundar toda a frota inimiga antes do adversário**.
+
+
+---
 
 ## Tipos de Navios (Época dos Descobrimentos)
 
