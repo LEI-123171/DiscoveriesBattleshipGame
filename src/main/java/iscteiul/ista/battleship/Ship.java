@@ -16,10 +16,13 @@ public abstract class Ship implements IShip {
     private static final String BARCA = "barca";
 
     /**
-     * @param shipKind
-     * @param bearing
-     * @param pos
-     * @return
+     * Creates a ship of the specified type, bearing and position.
+     *
+     * @param shipKind the type of ship to create
+     * @param bearing the compass bearing of the ship
+     * @param pos the initial position of the ship
+     * @return a new ship corresponding to {@code shipKind}, or {@code null}
+     *         if the specified type is not recognized
      */
     static Ship buildShip(String shipKind, Compass bearing, Position pos) {
         Ship s;
@@ -53,9 +56,12 @@ public abstract class Ship implements IShip {
 
 
     /**
-     * @param category
-     * @param bearing
-     * @param pos
+     * Creates a ship with the specified category, bearing and position. 
+     *
+     * @param category the category or type of the ship
+     * @param bearing the compass bearing of the ship
+     * @param pos the initial position of the ship
+     * @throws AssertionError if {@code bearing} or {@code pos} is {@code null}
      */
     public Ship(String category, Compass bearing, IPosition pos) {
         assert bearing != null;
@@ -78,7 +84,7 @@ public abstract class Ship implements IShip {
     }
 
     /**
-     * @return the positions
+     * @return the positions occupied by this ship. 
      */
     public List<IPosition> getPositions() {
         return positions;
@@ -241,3 +247,4 @@ public abstract class Ship implements IShip {
     }
 
 }
+
