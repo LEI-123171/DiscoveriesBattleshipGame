@@ -7,8 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author fba
+ * Representa uma partida de Batalha Naval.
+ * Gere os tiros efetuados e as respetivas estatísticas.
  *
+ * @author Inês
  */
 public class Game implements IGame {
     private IFleet fleet;
@@ -21,7 +23,9 @@ public class Game implements IGame {
 
 
     /**
-     * @param fleet
+     * Cria um novo jogo com a frota indicada.
+     *
+     * @param fleet frota utilizada no jogo
      */
     public Game(IFleet fleet) {
         shots = new ArrayList<>();
@@ -152,7 +156,7 @@ public class Game implements IGame {
 
 
     /**
-     * Prints the board showing valid shots that have been fired
+     * Apresenta no tabuleiro os tiros válidos efetuados.
      */
     public void printValidShots() {
         printBoard(getShots(), 'X');
@@ -160,7 +164,7 @@ public class Game implements IGame {
 
 
     /**
-     * Prints the board showing the fleet
+     * Apresenta no tabuleiro a posição dos navios da frota.
      */
     public void printFleet() {
         List<IPosition> shipPositions = new ArrayList<IPosition>();
