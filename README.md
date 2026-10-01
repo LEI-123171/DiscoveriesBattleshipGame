@@ -48,3 +48,7 @@ No jogo *Discoveries Battleship Game*, os navios tradicionais da Batalha Naval s
 ## Teste de Branch
 
 Alteração realizada para testar a gestão de branches no Git.
+
+## Teste de Conflito
+
+Este texto foi escrito na branch test-branch-ines.
