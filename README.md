@@ -44,11 +44,6 @@ No jogo *Discoveries Battleship Game*, os navios tradicionais da Batalha Naval s
 
 3. **Objetivo e Vitória**
    * Ganha o primeiro jogador que conseguir **afundar a totalidade da frota adversária**.
-
-## Teste de Branch
-
-Alteração realizada para testar a gestão de branches no Git.
-
 ## Teste de Conflito
 
-Este texto foi escrito na branch test-branch-ines.
+Conflito de merge resolvido manualmente.
