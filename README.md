@@ -48,3 +48,11 @@ No jogo *Discoveries Battleship Game*, os navios tradicionais da Batalha Naval s
 ## Teste de Conflito
 
 Conflito de merge resolvido manualmente.
+
+## Teste de Stash
+
+Alteração temporária para testar o git stash.
+
+## Trabalho Concorrente
+
+Esta alteração foi realizada pela Inês.
