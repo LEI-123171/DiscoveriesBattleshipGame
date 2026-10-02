@@ -29,6 +29,13 @@ No jogo *Discoveries Battleship Game*, os navios tradicionais da Batalha Naval s
 | Navio de 2 canhões | **Caravela** | Caravel | 2 | 3 |
 | Submarino | **Barca** | Barge | 1 | 4 |
 
+## 🔗 Para saber mais
+
+- [Galeão](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
+- [Nau](https://pt.wikipedia.org/wiki/Nau)
+- [Caravela](https://pt.wikipedia.org/wiki/Caravela)
+- [Batalha Naval (jogo)](https://pt.wikipedia.org/wiki/Batalha_naval_(jogo))
+
 ---
 
 ## Regras do Jogo
@@ -44,3 +51,13 @@ No jogo *Discoveries Battleship Game*, os navios tradicionais da Batalha Naval s
 
 3. **Objetivo e Vitória**
    * Ganha o primeiro jogador que conseguir **afundar a totalidade da frota adversária**.
+
+---
+## 🎯 Exemplo de jogada
+
+**Jogador A dispara:** (2,3), (2,4), (7,1)
+
+**Jogador B responde:**
+- (2,3) → Acertou numa **Nau**
+- (2,4) → Acertou numa **Nau** (afundada!)
+- (7,1) → Água
